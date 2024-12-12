@@ -4,3 +4,4 @@ grep -r "quijote"
 grep -r "Quijote" * | cut -d: -f1 | sort | uniq
 sed -i 's/panza/barriga/g' el_quijote.txt
 sed -i 's/panza/barriga/Ig' el_quijote.txt
+head -c 4 el_quijote.txt
